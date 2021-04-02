@@ -1,9 +1,12 @@
 ---
 # tasks file for ansible-ntp-role
+
+# Install chrony package from yum
 - yum:
     name: "chrony"
     state: latest
 
+# Copy default config file
 - copy:
     src: chrony.conf
     dest: /etc/chrony.conf
@@ -11,6 +14,7 @@
     group: root
     mode: "0644"
 
+# Enable and start chronyd service
 - service:
     name: chronyd
     enabled: yes
