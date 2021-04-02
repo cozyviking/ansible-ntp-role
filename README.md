@@ -9,7 +9,7 @@ Current iteration just installs chronyd from YUM, sets up a basic default /etc/c
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+Using the role is fairly simple right now. You will just need to create a basic playbook and include it in the roles section:
 
     - hosts: servers
       roles:
