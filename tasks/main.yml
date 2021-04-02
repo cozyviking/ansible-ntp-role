@@ -1,0 +1,17 @@
+---
+# tasks file for ansible-ntp-role
+- yum:
+    name: "chrony"
+    state: latest
+
+- copy:
+    src: chrony.conf
+    dest: /etc/chrony.conf
+    owner: root
+    group: root
+    mode: "0644"
+
+- service:
+    name: chronyd
+    enabled: yes
+    state: restarted
