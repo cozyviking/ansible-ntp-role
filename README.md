@@ -11,7 +11,7 @@ Example Playbook
 
 Using the role is fairly simple right now. You will just need to create a basic playbook and include it in the roles section:
 
-```
+```YAML
     - hosts: servers
       roles:
          - ansible-ntp-role
