@@ -13,6 +13,7 @@ Using the role is fairly simple right now. You will just need to create a basic 
 
 ```YAML
     - hosts: servers
+      become: yes
       roles:
          - ansible-ntp-role
 ```
