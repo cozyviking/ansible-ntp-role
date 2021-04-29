@@ -1,7 +1,7 @@
 galaxy_info:
   author: cozyviking
   description: RHEL/CentOS NTP configuration using chronyd
-  license: license (BSD-3-Clause)
+  license: license (MIT)
 
   min_ansible_version: 2.10
   platforms:
