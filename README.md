@@ -30,8 +30,3 @@ Running `chronyc sources` and `chronyc tracking` on the target server(s) should 
 https://raw.githubusercontent.com/cozyviking/ansible-ntp-role/main/files/chronyc-sources.gif)
 
 
-License
--------
-
-BSD
-
